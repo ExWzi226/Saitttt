@@ -3,29 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио</title>
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Inter:wght@400;700&display=swap"
+    <linkA
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Портфолио</title>
   </head>
   <body>
     <header data-aos="fade-down" data-aos-delay="200">
       <div class="container">
         <div class="content">
           <div class="logo">
-            <a href="#">ExWzi.</a>
+            <a href="">ExWzi.</a>
           </div>
+
           <nav>
             <a href="#about">Обо мне</a>
             <a href="#project">Проекты</a>
             <a href="#contact">Связь</a>
           </nav>
+
           <div class="extra-nav">
             <a href="#"><span>ГОТОВ К РАБОТЕ</span></a>
           </div>
@@ -41,87 +46,113 @@
           <div class="line"></div>
 
           <div class="text">
-            <h1 class="row-1" data-aos="fade-right" data-aos-duration="2000">3D</h1>
+            <h1 class="row-1" data-aos="fade-right"
+            data-aos-duration="2000">3D</h1>
             <h1 class="row-2" data-aos="flip-down" data-aos-duration="2000">АНИМАТОР</h1>
-            <!-- Удалён пустой заголовок -->
+            <h1
+              class="row-3"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
+              
+            </h1>
           </div>
 
           <box-icon name="chevron-down" class="arrow"></box-icon>
 
           <div class="short-info">
-            <div class="left-side" data-aos="fade-up-right" data-aos-delay="300">
+            <div
+              class="left-side"
+              data-aos="fade-up-right"
+              data-aos-delay="300"
+            >
               <h1>Нахожусь в Москве, Россия</h1>
               <p class="time"></p>
             </div>
-            <div class="right-side" data-aos="fade-up-left" data-aos-delay="300">
+
+            <div
+              class="right-side"
+              data-aos="fade-up-left"
+              data-aos-delay="300"
+            >
               <p>Лучший в своей сфере</p>
-              <h1><span class="pulse"></span>Работаю фуллтайм</h1>
+              <h1>
+                <div class="pulse"></div>
+                Работаю фуллтайм
+              </h1>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- About Section -->
     <section class="about" id="about">
-      <div class="container">
-        <div class="content">
-          <div class="title">
-            <h2 data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">Обо мне</h2>
-            <hr />
-            <h1 data-aos="fade-right" data-aos-duration="500" data-aos-delay="500">ExWzi</h1>
-          </div>
+        <div class="container">
+            <div class="content">
+                <div class="title">
+                    <h2 data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">Обо мне <hr></h1>
+                    <h1 data-aos="fade-right" data-aos-duration="500" data-aos-delay="500">ExWzi</h2>
+                </div>
+                
+                <div class="profile-container" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                  <div class="profile">
+                    <img src="assets/ai_profile.png" alt="profile">
+                  </div>
+                </div>
+                
+                <div class="about-me" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                  <p>В этой теме уже 3 года. В основном занимаюсь 3д анимациями, также иногда занимаюсь несложным созданием 3д моделей (в основном мебель).</p>
+                  <button>Узнать больше <box-icon class="arrow" name='arrow-back'></box-icon></button>
+                </div>
 
-          <div class="profile-container" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
-            <div class="profile">
-              <img src="assets/ai_profile.png" alt="Профиль ExWzi" />
+              <div class="text-wrapper" data-aos="flip-up">
+                <div class="text">
+                  <h1>ExWzi <span>ПОРТФОЛИО</span></h1>
+                  <h1>ExWzi <span>ПОРТФОЛИО</span></h1>
+                </div>
+                <div class="text">
+                  <h1>ExWzi <span>ПОРТФОЛИО</span></h1>
+                  <h1>ExWzi <span>ПОРТФОЛИО</span></h1>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <div class="about-me" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-            <p>В этой теме уже 3 года. В основном занимаюсь 3D-анимациями, иногда делаю простые 3D-модели (мебель).</p>
-            <button type="button">Узнать больше <box-icon class="arrow" name="arrow-back"></box-icon></button>
-          </div>
-
-          <div class="text-wrapper" data-aos="flip-up">
-            <div class="text">
-              <h1>ExWzi <span>ПОРТФОЛИО</span></h1>
-              <h1>ExWzi <span>ПОРТФОЛИО</span></h1>
-            </div>
-            <div class="text">
-              <h1>ExWzi <span>ПОРТФОЛИО</span></h1>
-              <h1>ExWzi <span>ПОРТФОЛИО</span></h1>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <section class="project" id="project">
       <div class="container">
         <div class="content">
           <div class="header">
-            <button type="button" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-              Увидеть все проекты <box-icon class="arrow" name="arrow-back"></box-icon>
-            </button>
+            <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Увидеть все проекты <box-icon class="arrow" name='arrow-back'></box-icon></button>
+
             <div class="title">
-              <hr />
-              <h1 class="row-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">Последние</h1>
-              <h1 class="row-2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">РАБОТЫ</h1>
+              <h1 class="row-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300"><hr> Последние</h1>
+              <H1 class="row-2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">РАБОТЫ</H1>
             </div>
           </div>
 
-          <div class="project-area" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <div class="project-area"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             <div class="projects">
-              <video src="assets/project-1.mp4" autoplay muted loop playsinline></video>
-              <div class="desc"><h1>Лук и стрела</h1></div>
+              <img src="assets/project-1.mp4" alt="project-1">
+              <div class="desc">
+                <h1>Лук и стрела/h1>
+                <p></p>
+              </div>
             </div>
             <div class="projects">
-              <video src="assets/project-2.mp4" autoplay muted loop playsinline></video>
-              <div class="desc"><h1>Удар титана</h1></div>
+              <img src="assets/project-2.mp4" alt="project-2">
+              <div class="desc">
+                <h1>2</h1>
+                <p>Удар титана</p>
+            </div>
             </div>
             <div class="projects">
-              <video src="assets/project-3.mp4" autoplay muted loop playsinline></video>
-              <div class="desc"><h1>Джин</h1></div>
+              <img src="assets/project-3.mp4" alt="project-3">
+              <div class="desc">
+                <h1>3</h1>
+                <p>Джин</p>
+            </div>
             </div>
           </div>
         </div>
@@ -135,18 +166,20 @@
             <h2>ДАВАЙ</h2>
             <h1>СПИШЕМСЯ</h1>
           </div>
+
           <div class="contact-area">
-            <div class="left-side" data-aos="fade-right" data-aos-delay="300">
+            <div data-aos="fade-right" data-aos-delay="300" class="left-side">
               <h1>МОЙ</h1>
               <h1>ТГ</h1>
               <h1>@ExWzi</h1>
             </div>
-            <div class="right-side" data-aos="fade-left" data-aos-delay="500">
-              <form>
-                <input type="text" placeholder="Ваш ник в ТГ" />
-                <input type="text" placeholder="Контактная информация" />
-                <textarea placeholder="Ваше сообщение"></textarea>
-                <button type="submit">Отправить</button>
+
+            <div class="right-side">
+              <form data-aos="fade-left" data-aos-delay="500">
+                <input type="info" placeholder="Мой тг @ExWzi">
+                <input type="info" placeholder="Мой тг @ExWzi">
+                <textarea placeholder="Мой тг @ExWzi"></textarea>
+                <button type="submit">Мой тг @ExWzi</button>
               </form>
             </div>
           </div>
@@ -154,20 +187,22 @@
       </div>
     </section>
 
-    <footer>
-      <div class="container">
-        <div class="content">
+
+            </div>
+          </div>
           <p>&copy; ExWzi <span id="year"></span></p>
         </div>
       </div>
     </footer>
 
     <script src="script.js"></script>
+
+   
+
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-      // Автоматическая подстановка текущего года в футер
-      document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
