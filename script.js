@@ -15,9 +15,9 @@ window.addEventListener("scroll", () => {
 });
 
 const now = new Date();
-const jakartaTime = now.toLocaleString("en-US", { timeZone: "Asia/Jakarta" });
-const [date, time] = jakartaTime.split(", ");
-timeText.textContent = `${time} GMT+7`
+const moscowTime = now.toLocaleString("ru-RU", { timeZone: "Europe/Moscow" });
+const [date, time] = moscowTime.split(", ");
+timeText.textContent = `${time} МСК`;
 
 const yearText = document.getElementById("year");
 const year = new Date().getFullYear();
